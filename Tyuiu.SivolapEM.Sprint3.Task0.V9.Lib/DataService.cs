@@ -22,7 +22,7 @@ namespace Tyuiu.SivolapEM.Sprint3.Task0.V9.Lib
                 sum += currentTerm;
             }
 
-            return sum;
+            return Math.Round(sum, 3);
         }
     }
 }
