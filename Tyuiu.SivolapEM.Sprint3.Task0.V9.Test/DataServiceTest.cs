@@ -10,7 +10,7 @@ namespace Tyuiu.SivolapEM.Sprint3.Task0.V9.Test
         {
             var ds = new DataService();
             double x = 0.5;
-            double expected = 0.4304378647794298;
+            double expected = 0.43;
 
             double actual = ds.GetSumSeries(x, 1, 15);
 
