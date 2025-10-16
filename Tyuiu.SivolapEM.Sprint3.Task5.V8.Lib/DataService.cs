@@ -19,7 +19,7 @@ namespace Tyuiu.SivolapEM.Sprint3.Task5.V8.Lib
                         throw new DivideByZeroException($"Попытка деления на ноль: sin(k) равен нулю при k = {k}.");
                     }
 
-                    totalSum += 1.0 / sin_k;
+                    totalSum += 1.0 / sin_k + 3;
                 }
             }
 
